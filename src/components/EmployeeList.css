@@ -1,0 +1,25 @@
+.employee-list-container {
+    margin-left: 20px; 
+  }
+  
+  .employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    text-align: left; 
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }

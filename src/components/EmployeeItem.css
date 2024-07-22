@@ -1,0 +1,66 @@
+/* EmployeeItem.css */
+.employee-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.employee-details {
+  text-align: center;
+}
+
+.details-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00B8D4  ;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.details-button:hover {
+  background-color: #0088A9   ;
+}
+
+.favorite-button-container {
+  margin-top: 10px;
+}
+
+.favorite-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-button.add {
+  background-color: #00B8D4  ;
+  color: white;
+}
+
+.favorite-button.add:hover {
+  background-color: #0088A9   ;
+}
+
+.favorite-button.remove {
+  background-color: #00B8D4  ;
+  color: white;
+}
+
+.favorite-button.remove:hover {
+  background-color: #0088A9   ;
+}

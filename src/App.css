@@ -1,0 +1,54 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4682b4, #7ac5cd, #afeeee, #ffb6c1, salmon);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App-header {
+  color: midnightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.company-input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main-nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: midnightblue;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  max-width: 100%; /* Ensure map doesn't overflow its container */
+  margin-bottom: 20px; /* Adjust as needed */
+}
